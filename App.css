@@ -1,0 +1,212 @@
+/* website proportions */
+main {
+  width: 100%;
+  height: 100%;
+}
+
+/* eliminate gap between nav bar and top of website */
+body{
+  margin:0px;
+}
+/* remove bullet points from links */
+li{
+  list-style-type:none;
+}
+nav{
+  position:relative;
+}
+
+/* nav bar */
+nav ul{
+  margin:0px;
+  text-align: right;
+  background-color: black;
+  overflow:hidden;
+  padding-bottom:0.5%;
+  padding-top:0.5%;
+}
+
+nav li{
+  display:inline;
+  margin-right:8%;
+}
+
+nav li a{
+  text-decoration:none;
+  font-size: 2vw;
+  font-family: "Raleway", sans-serif;
+  font-weight:bold;
+  color:white;
+  cursor: pointer;
+  /* padding-left:5%;
+  padding-right:5%; */
+   transition: 0.3s ease;
+}
+
+nav li a:hover{
+  transition: 0.3s ease;
+  color: #d6d6d6;
+}
+
+#home{
+  /* margin-left:5%; */
+  overflow:hidden;
+  float:left;
+}
+
+h1 {
+  font-size: 5vw;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+h2
+{
+  font-size: 2vw;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding-bottom:1em;
+}
+
+.flexBox
+{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:auto;
+  width:100%;
+  margin-bottom:2%;
+}
+
+.box
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+
+img
+{
+  display:flex;
+  height:auto;
+  width:75%;
+  border-radius:10px;
+  margin-bottom:3%;
+  box-shadow: 8px 8px 10px #d6d6d6;
+}
+
+#button1 
+{
+  font-size: 2vw;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  margin-right:25%;
+  margin-bottom:60%;
+  top:42.5%;
+  transform:translate(0,0);
+  padding: 0.5vw 1vw;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  height:auto;
+  width:25%;
+  box-shadow: 8px 8px 5px #d6d6d6;
+}
+
+#button1:hover{
+  background-color: #bababa;
+  transition: 0.5s ease;
+}
+
+#createAccount{
+  font-family: "Raleway", sans-serif;
+  font-size:1.5vw;
+  position: absolute;
+  margin-left:12.5%;
+  margin-right:25%;
+  margin-bottom:50%;
+  top:55%;
+  transform:translate(0,0);
+  color: #24c0f5;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#createAccount:hover
+{
+  color: #0b48c1;
+  transition: 0.3s ease;
+}
+
+#tagline{
+  font-size: 2vw;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  margin-left:25%;
+  margin-right:25%;
+  margin-bottom:75%;
+  top:5%;
+  transform:translate(0,0);
+}
+.items{
+  margin:5%;
+  padding:5%;
+  border:none;
+  border-radius:10px;
+  cursor: pointer;
+  box-shadow: 8px 8px 10px #d6d6d6;
+  transition: 0.5s ease;
+}
+
+.items:hover{
+  filter: grayscale(50%);
+  transform:scale(1.05);
+  transition: 0.5s ease;
+}
+
+#q2a1{
+  font-size: 3vw;
+  font-family: "Raleway", sans-serif;
+  font-weight:bold;
+}
+
+#q2a2{
+  font-size: 3vw;
+  font-family: "Raleway", sans-serif;
+  font-weight:bold;
+}
+
+#searchButton{
+  margin-left:12%;
+  margin-top:2%;
+  font-size: 2vw;
+  font-family: "Raleway", sans-serif;
+  padding: 0.5vw 1vw;
+  background-color: #ddd2c0;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  height:auto;
+  width:25%;
+  box-shadow: 8px 8px 5px #d6d6d6;
+}
+
+#searchButton:hover
+{
+  background-color: #dac4a0;
+  transition: 0.5s ease;
+}
+
+.flexBoxButtons
+{
+  margin-left:30%;
+  justify-content:center;
+  align-items:center;
+}
